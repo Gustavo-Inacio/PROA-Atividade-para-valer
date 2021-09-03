@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    margin: 40px 0px;
+}
+
+section{
+    padding: 30px 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-items: space-between;
+}
+
+h1{
+    text-align: center;
+}
+
+.deafult-360-img{
+    min-width: 300px;
+    min-height: 300px;
+    width: 30%;
+    height: 30%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+#musicSection{
+    background: #AA1305;
+}
+
+#movie{
+    background: #0F0801;
+}
+
+.default-100-img{
+    width: 100%;
+    min-height: 300px;
+    max-height: 600px;
+    height: auto;
+    object-fit: cover;
+}
+
+.default-50-img{
+    width: 50%;
+    min-height: 300px;
+    max-height: 600px;
+    height: auto;
+    object-fit: cover;
+    min-width: 360px;
+}
+
+#habilities{
+    background: #333532;
+}
+
+label.deafult-360-img{
+    font-weight: bold;
+    font-size: 120px;
+    color: #000000;
+    text-align: center;
+    
+}
+
+#work{
+    background: #0084A0;
+}
+
+.default-75-img{
+    width: 60%;
+    max-height: 400px;
+    min-width: 360px;
+    object-fit: cover;
+}
+
+#wish{
+    background: #E7A290;
+}
+
+.deafult-25-img{
+    width: 25%;
+    max-width:236px;
+    height: 360px;
+    object-fit: cover;
+}
+#inspiration{
+    background: #194622;
+}
+
+#books{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    background: #FD7376;
+}
